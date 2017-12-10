@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hex Dump House</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-12-10T06:22:29.645Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Charly Wan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux view disk and folder</title>
+    <link href="http://yoursite.com/2017/12/10/2017/1210/Linux-view-disk-and-folder/"/>
+    <id>http://yoursite.com/2017/12/10/2017/1210/Linux-view-disk-and-folder/</id>
+    <published>2017-12-10T06:19:22.000Z</published>
+    <updated>2017-12-10T06:22:29.645Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="View-all-disks"><a href="#View-all-disks" class="headerlink" title="View all disks"></a>View all disks</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo df -h</span><br></pre></td></tr></table></figure><h3 id="View-directory"><a href="#View-directory" class="headerlink" title="View directory"></a>View directory</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">du -sh [FILE]/[FOLDER]</span><br><span class="line">du -sk [FILE]/[FOLDER]</span><br><span class="line">du -sm [FILE]/[FOLDER]</span><br><span class="line"></span><br><span class="line">sh -&gt; nK/nM/nG  eg.  [4.0K    xxx.log]</span><br><span class="line">sk -&gt; nK        eg.  [4.3K    xxx.log]</span><br><span class="line">sm -&gt; nM        eg.  [7M      xxx.log]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;View-all-disks&quot;&gt;&lt;a href=&quot;#View-all-disks&quot; class=&quot;headerlink&quot; title=&quot;View all disks&quot;&gt;&lt;/a&gt;View all disks&lt;/h3&gt;&lt;figure class=&quot;highlight 
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Folder" scheme="http://yoursite.com/tags/Folder/"/>
+    
+      <category term="Disk" scheme="http://yoursite.com/tags/Disk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Detect remote port status</title>
+    <link href="http://yoursite.com/2017/12/10/2017/1210/Detect-remote-port-status/"/>
+    <id>http://yoursite.com/2017/12/10/2017/1210/Detect-remote-port-status/</id>
+    <published>2017-12-10T06:19:22.000Z</published>
+    <updated>2017-12-10T06:31:15.565Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="On-Linux"><a href="#On-Linux" class="headerlink" title="On Linux"></a>On Linux</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nc -vuz [IP] [PORT]</span><br><span class="line"></span><br><span class="line">eg:</span><br><span class="line">    nc -vuz 103.218.243.55 22</span><br></pre></td></tr></table></figure><p>nc is toolkit in Linux.</p><h3 id="On-Windows"><a href="#On-Windows" class="headerlink" title="On Windows"></a>On Windows</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">telnet [IP] [PORT]</span><br><span class="line"></span><br><span class="line">eg:</span><br><span class="line">    telnet 103.218.243.55 22</span><br></pre></td></tr></table></figure><p><code>telnet</code> can only detect TCP port. It can be installed like this:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Control Panel -&gt; Programs and Fuctions -&gt; telnet client</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;On-Linux&quot;&gt;&lt;a href=&quot;#On-Linux&quot; class=&quot;headerlink&quot; title=&quot;On Linux&quot;&gt;&lt;/a&gt;On Linux&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="Windows" scheme="http://yoursite.com/categories/Linux/Windows/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Network" scheme="http://yoursite.com/tags/Network/"/>
+    
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="Penetration" scheme="http://yoursite.com/tags/Penetration/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux view cpu</title>
+    <link href="http://yoursite.com/2017/12/10/2017/1210/Linux-view-cpu/"/>
+    <id>http://yoursite.com/2017/12/10/2017/1210/Linux-view-cpu/</id>
+    <published>2017-12-10T06:19:22.000Z</published>
+    <updated>2017-12-10T06:24:26.651Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="View-CPU-usage"><a href="#View-CPU-usage" class="headerlink" title="View CPU usage"></a>View CPU usage</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">top</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;View-CPU-usage&quot;&gt;&lt;a href=&quot;#View-CPU-usage&quot; class=&quot;headerlink&quot; title=&quot;View CPU usage&quot;&gt;&lt;/a&gt;View CPU usage&lt;/h3&gt;&lt;figure class=&quot;highlight 
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="CPU" scheme="http://yoursite.com/tags/CPU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux view port</title>
+    <link href="http://yoursite.com/2017/12/10/2017/1210/Linux-view-port/"/>
+    <id>http://yoursite.com/2017/12/10/2017/1210/Linux-view-port/</id>
+    <published>2017-12-10T06:09:27.000Z</published>
+    <updated>2017-12-10T06:18:12.396Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="View-established-port-usage-gt-ESTABLISHED"><a href="#View-established-port-usage-gt-ESTABLISHED" class="headerlink" title="View established port usage =&gt; ESTABLISHED"></a>View established port usage =&gt; ESTABLISHED</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -a</span><br></pre></td></tr></table></figure><h3 id="View-all-port-usage-gt-LISTEN-ESTABLISHED"><a href="#View-all-port-usage-gt-LISTEN-ESTABLISHED" class="headerlink" title="View all port usage =&gt; LISTEN, ESTABLISHED"></a>View all port usage =&gt; LISTEN, ESTABLISHED</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -ap</span><br></pre></td></tr></table></figure><h3 id="View-specific-port-usage"><a href="#View-specific-port-usage" class="headerlink" title="View specific port usage"></a>View specific port usage</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -ap | grep 8080</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsof -i:8888</span><br></pre></td></tr></table></figure><h3 id="Kill-specific-program-occupied-port"><a href="#Kill-specific-program-occupied-port" class="headerlink" title="Kill specific program occupied port"></a>Kill specific program occupied port</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kill -9 [PID]</span><br></pre></td></tr></table></figure><p><code>kill</code> sends a signal to the PID process.<br>The signal is SIGTERM by default.<br>However, <code>kill -9</code> sends SIGKILL which cannot be blocked by system, so it will kill process smoothly.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;View-established-port-usage-gt-ESTABLISHED&quot;&gt;&lt;a href=&quot;#View-established-port-usage-gt-ESTABLISHED&quot; class=&quot;headerlink&quot; title=&quot;View est
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Network" scheme="http://yoursite.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux searching files</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-searching-files/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-searching-files/</id>
+    <published>2017-12-09T14:23:20.000Z</published>
+    <updated>2017-12-09T14:42:04.554Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Method-1"><a href="#Method-1" class="headerlink" title="Method 1"></a>Method 1</h3><p>character: fuzzy search</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">whereis [FILENAME]</span><br></pre></td></tr></table></figure><h3 id="Method-2"><a href="#Method-2" class="headerlink" title="Method 2"></a>Method 2</h3><p>character: accurate, large resources consuming</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find / -name [FILENAME]</span><br></pre></td></tr></table></figure><h3 id="Method-3"><a href="#Method-3" class="headerlink" title="Method 3"></a>Method 3</h3><p>character: fastest, recommend</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">locate [FILENAME]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Method-1&quot;&gt;&lt;a href=&quot;#Method-1&quot; class=&quot;headerlink&quot; title=&quot;Method 1&quot;&gt;&lt;/a&gt;Method 1&lt;/h3&gt;&lt;p&gt;character: fuzzy search&lt;/p&gt;
+&lt;figure class=&quot;hig
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="File" scheme="http://yoursite.com/tags/File/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mounting directory</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Mounting-directory/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Mounting-directory/</id>
+    <published>2017-12-09T14:21:20.000Z</published>
+    <updated>2017-12-09T14:33:15.906Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Mounting-other-Linux-directory"><a href="#Mounting-other-Linux-directory" class="headerlink" title="Mounting other Linux directory"></a>Mounting other Linux directory</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mkdir /mnt/wangfang-docs </span><br><span class="line">$ sudo mount -t cifs -o username=&apos;niy&apos;,password=&apos;123456&apos; //192.168.251.15/Documents /mnt/wangfang-docs</span><br></pre></td></tr></table></figure><h3 id="Mounting-other-Windows-directory"><a href="#Mounting-other-Windows-directory" class="headerlink" title="Mounting other Windows directory"></a>Mounting other Windows directory</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mount -t nfs -o username=&apos;niy&apos;,password=&apos;123456&apos; 192.168.20.204:/home/dir /home/dir</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Mounting-other-Linux-directory&quot;&gt;&lt;a href=&quot;#Mounting-other-Linux-directory&quot; class=&quot;headerlink&quot; title=&quot;Mounting other Linux directory&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Folder" scheme="http://yoursite.com/tags/Folder/"/>
+    
+      <category term="Mounting" scheme="http://yoursite.com/tags/Mounting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux file permissions</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-file-permissions/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-file-permissions/</id>
+    <published>2017-12-09T14:19:20.000Z</published>
+    <updated>2017-12-09T14:54:58.404Z</updated>
+    
+    <content type="html"><![CDATA[<p>drwxrwxrwx</p><h3 id="d-File-type"><a href="#d-File-type" class="headerlink" title="d: File type"></a>d: File type</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">d -&gt; directory</span><br><span class="line">- -&gt; normal file</span><br><span class="line">l -&gt; link</span><br><span class="line">b -&gt; block device</span><br><span class="line">p -&gt; pipe file</span><br><span class="line">c -&gt; character device</span><br><span class="line">s -&gt; socket file</span><br></pre></td></tr></table></figure><h3 id="First-drw-gt-User"><a href="#First-drw-gt-User" class="headerlink" title="First drw ==&gt; User"></a>First <code>drw</code> ==&gt; User</h3><p>File owner’s permissions.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">r -&gt; read</span><br><span class="line">w -&gt; write</span><br><span class="line">x -&gt; execute</span><br></pre></td></tr></table></figure><h3 id="Second-drw-gt-Group"><a href="#Second-drw-gt-Group" class="headerlink" title="Second drw ==&gt; Group"></a>Second <code>drw</code> ==&gt; Group</h3><p>File owner’s group’s permissions.</p><h3 id="Last-drw-gt-Other"><a href="#Last-drw-gt-Other" class="headerlink" title="Last drw ==&gt; Other"></a>Last <code>drw</code> ==&gt; Other</h3><p>Other users’ permissions.</p><h3 id="Change-file-permissions"><a href="#Change-file-permissions" class="headerlink" title="Change file permissions"></a>Change file permissions</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod [u/g/o/a] [+/-/=] [r/w/x] [FILENAME/DIRECTORY NAME]</span><br><span class="line"></span><br><span class="line">u -&gt; User</span><br><span class="line">g -&gt; Group</span><br><span class="line">o -&gt; Others</span><br><span class="line">a -&gt; all</span><br><span class="line"></span><br><span class="line">+ -&gt; add</span><br><span class="line">- -&gt; remove</span><br><span class="line">= -&gt; set</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;drwxrwxrwx&lt;/p&gt;
+&lt;h3 id=&quot;d-File-type&quot;&gt;&lt;a href=&quot;#d-File-type&quot; class=&quot;headerlink&quot; title=&quot;d: File type&quot;&gt;&lt;/a&gt;d: File type&lt;/h3&gt;&lt;figure class=&quot;hi
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="File" scheme="http://yoursite.com/tags/File/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux CD-ROM</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-CD-ROM/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-CD-ROM/</id>
+    <published>2017-12-09T14:19:20.000Z</published>
+    <updated>2017-12-09T14:34:00.588Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Mounting-CD-ROM"><a href="#Mounting-CD-ROM" class="headerlink" title="Mounting CD-ROM"></a>Mounting CD-ROM</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount /dev/cdrom1 /media/cdrom</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Mounting-CD-ROM&quot;&gt;&lt;a href=&quot;#Mounting-CD-ROM&quot; class=&quot;headerlink&quot; title=&quot;Mounting CD-ROM&quot;&gt;&lt;/a&gt;Mounting CD-ROM&lt;/h3&gt;&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="CD-ROM" scheme="http://yoursite.com/tags/CD-ROM/"/>
+    
+      <category term="Disk" scheme="http://yoursite.com/tags/Disk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux change DNS</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-change-DNS/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-change-DNS/</id>
+    <published>2017-12-09T14:19:20.000Z</published>
+    <updated>2017-12-09T15:06:48.913Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Change-DNS-file"><a href="#Change-DNS-file" class="headerlink" title="Change DNS file"></a>Change DNS file</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo nano /etc/resolv.conf</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Comment useless DNS server</span><br><span class="line">nameserver 8.8.8.8</span><br><span class="line">nameserver 8.8.4.4</span><br></pre></td></tr></table></figure><h3 id="Restart-network"><a href="#Restart-network" class="headerlink" title="Restart network"></a>Restart network</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo service network restart</span><br></pre></td></tr></table></figure><h3 id="Lock-DNS-file-if-needed"><a href="#Lock-DNS-file-if-needed" class="headerlink" title="Lock DNS file if needed"></a>Lock DNS file if needed</h3><p>If you don’t want other program change DNS file, you can lock it.</p><p>Make file read-only:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chattr +i /etc/resolv.conf</span><br></pre></td></tr></table></figure><p>Cancel file read-only:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chattr -i /etc/resolv.conf</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Change-DNS-file&quot;&gt;&lt;a href=&quot;#Change-DNS-file&quot; class=&quot;headerlink&quot; title=&quot;Change DNS file&quot;&gt;&lt;/a&gt;Change DNS file&lt;/h3&gt;&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Network" scheme="http://yoursite.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux restart network</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-restart-network/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-restart-network/</id>
+    <published>2017-12-09T14:19:20.000Z</published>
+    <updated>2017-12-09T15:10:23.390Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Method-1"><a href="#Method-1" class="headerlink" title="Method 1"></a>Method 1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo service network restart</span><br></pre></td></tr></table></figure><h3 id="Method-2"><a href="#Method-2" class="headerlink" title="Method 2"></a>Method 2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo rcnetwork restart</span><br></pre></td></tr></table></figure><h3 id="Method-3"><a href="#Method-3" class="headerlink" title="Method 3"></a>Method 3</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/rc.d/network restart</span><br></pre></td></tr></table></figure><h3 id="Method-4"><a href="#Method-4" class="headerlink" title="Method 4"></a>Method 4</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ifconfig eth0 down</span><br><span class="line">$ sudo ifconfig eth0 up</span><br></pre></td></tr></table></figure><h3 id="Method-5"><a href="#Method-5" class="headerlink" title="Method 5"></a>Method 5</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ifdown eth0</span><br><span class="line">$ sudo ifup eth0</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Method-1&quot;&gt;&lt;a href=&quot;#Method-1&quot; class=&quot;headerlink&quot; title=&quot;Method 1&quot;&gt;&lt;/a&gt;Method 1&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Network" scheme="http://yoursite.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux apt-get</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-apt-get/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-apt-get/</id>
+    <published>2017-12-09T14:19:20.000Z</published>
+    <updated>2017-12-09T15:20:31.013Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Search-package"><a href="#Search-package" class="headerlink" title="Search package"></a>Search package</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-cache search gcc</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-cache search all | grep gcc</span><br></pre></td></tr></table></figure><h3 id="Uninstall-package"><a href="#Uninstall-package" class="headerlink" title="Uninstall package"></a>Uninstall package</h3><p>Remove package with configure files -&gt; ALL</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ apt-get purge/apt-get –purge remove XXX</span><br></pre></td></tr></table></figure><p>Remove package without configure files</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get autoremove XXX</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get remove XXX</span><br></pre></td></tr></table></figure><h3 id="Clean-package"><a href="#Clean-package" class="headerlink" title="Clean package"></a>Clean package</h3><p>Remove obsolete packages</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get autoclean</span><br></pre></td></tr></table></figure><p>Remove all unnecessarty packages</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get clean</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Search-package&quot;&gt;&lt;a href=&quot;#Search-package&quot; class=&quot;headerlink&quot; title=&quot;Search package&quot;&gt;&lt;/a&gt;Search package&lt;/h3&gt;&lt;figure class=&quot;highlight 
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="apt-get" scheme="http://yoursite.com/tags/apt-get/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Running Linux bash</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Running-linux-bash/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Running-linux-bash/</id>
+    <published>2017-12-09T14:17:20.000Z</published>
+    <updated>2017-12-09T14:33:06.078Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assuming <code>hello.sh</code> in the location <code>/data/shell</code></p><h3 id="Method-1"><a href="#Method-1" class="headerlink" title="Method 1"></a>Method 1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/shell</span><br><span class="line">./hello.sh</span><br></pre></td></tr></table></figure><h3 id="Method-2"><a href="#Method-2" class="headerlink" title="Method 2"></a>Method 2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/data/shell/hello.sh</span><br></pre></td></tr></table></figure><h3 id="Method-3"><a href="#Method-3" class="headerlink" title="Method 3"></a>Method 3</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/shell</span><br><span class="line">bash hello.sh</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/shell</span><br><span class="line">sh hello.sh</span><br></pre></td></tr></table></figure><h3 id="Method-4"><a href="#Method-4" class="headerlink" title="Method 4"></a>Method 4</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/shell</span><br><span class="line">. hello.sh</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/shell</span><br><span class="line">source hello.sh</span><br></pre></td></tr></table></figure><p>前三种方法执行 shell 脚本时都是在当前 shell（称为父 shell）开启一个子 shell 环境，此 shell 脚本就在这个子shell 环境中执行。shell 脚本执行完后子 shell 环境随即关闭，然后又回到父 shell 中。而方法四则是在当前 shell 中执行的。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Assuming &lt;code&gt;hello.sh&lt;/code&gt; in the location &lt;code&gt;/data/shell&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Method-1&quot;&gt;&lt;a href=&quot;#Method-1&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Bash" scheme="http://yoursite.com/tags/Bash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Writting Linux bash</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Writting-linux-bash/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Writting-linux-bash/</id>
+    <published>2017-12-09T14:15:20.000Z</published>
+    <updated>2017-12-09T14:32:56.864Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Template"><a href="#Template" class="headerlink" title="Template"></a>Template</h3><p><code>Hello.sh</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># print hello world in the console window</span><br><span class="line">a = &quot;hello world&quot;</span><br><span class="line">echo $a</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod +x Hello.sh</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./Hello.sh</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Template&quot;&gt;&lt;a href=&quot;#Template&quot; class=&quot;headerlink&quot; title=&quot;Template&quot;&gt;&lt;/a&gt;Template&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Hello.sh&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highl
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Bash" scheme="http://yoursite.com/tags/Bash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux compress and uncompress folders files</title>
+    <link href="http://yoursite.com/2017/12/09/2017/1209/Linux-compress-and-uncompress-folders-files/"/>
+    <id>http://yoursite.com/2017/12/09/2017/1209/Linux-compress-and-uncompress-folders-files/</id>
+    <published>2017-12-09T10:32:57.000Z</published>
+    <updated>2017-12-09T15:25:23.585Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Compress"><a href="#Compress" class="headerlink" title="Compress"></a>Compress</h3><p>Compress folder <code>html</code> to <code>html.tar.gz</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ tar -czvf html.tar.gz html/*</span><br><span class="line"></span><br><span class="line">c -&gt; create</span><br><span class="line">z -&gt; gzip</span><br><span class="line">v -&gt; view files</span><br><span class="line">f -&gt; use archive file (or device)</span><br></pre></td></tr></table></figure><h3 id="Uncompress"><a href="#Uncompress" class="headerlink" title="Uncompress"></a>Uncompress</h3><p>Uncompress file <code>XXX.tar.gz</code> to current folder</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf XXX.tar.gz</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Compress&quot;&gt;&lt;a href=&quot;#Compress&quot; class=&quot;headerlink&quot; title=&quot;Compress&quot;&gt;&lt;/a&gt;Compress&lt;/h3&gt;&lt;p&gt;Compress folder &lt;code&gt;html&lt;/code&gt; to &lt;code&gt;htm
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Folder" scheme="http://yoursite.com/tags/Folder/"/>
+    
+      <category term="File" scheme="http://yoursite.com/tags/File/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/12/09/hello-world/"/>
+    <id>http://yoursite.com/2017/12/09/hello-world/</id>
+    <published>2017-12-09T05:04:58.731Z</published>
+    <updated>2017-12-09T05:04:58.731Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
